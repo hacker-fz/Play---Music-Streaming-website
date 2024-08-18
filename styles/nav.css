@@ -1,0 +1,144 @@
+nav {
+    padding: 1rem 6rem;
+    margin: 1rem 4rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(60%);
+    border: rgba(255, 255, 255, 0.13) solid 1px;
+    border-radius: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.nav-bar, .nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    gap: 2rem;
+    font-size: 1.5rem;
+    color: #D8D8D8;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #B9B9B9;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #B9B9B9;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.login {
+    all: unset;
+    color: #D8D8D8;
+    padding: 16px 24px;
+    border-radius: 0.5rem;
+}
+
+.login:hover {
+    color: #B9B9B9;
+}
+
+.signup {
+    all: unset;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 16px 24px;
+    border-radius: 0.5rem;
+}
+
+.signup:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #D8D8D8;
+}
+
+@media screen and (max-width: 1235px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav{
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 10vh;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+        width: 100%;
+        gap: 2rem;
+        height: 100vh;
+    }
+
+    .nav-links.active {
+        top: 10vh;
+        left: 0;
+        right: 0;
+        
+        background-color: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(60%);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width: 785px){
+    nav{
+        padding: 1rem 2rem;
+        margin: 0;
+    }
+
+    .nav-links.active{
+        top: 8vh;
+    }
+}
