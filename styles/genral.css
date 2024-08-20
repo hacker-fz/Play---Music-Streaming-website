@@ -19,8 +19,8 @@ html {
 }
 
 .section-container{
-    max-width: var(--max-width);
-    padding: 5rem 1rem;
+    padding: 0 1rem;
+    height: 80vh;
 }
 
 a{
@@ -37,4 +37,15 @@ body{
 
 li{
     list-style: none;
+}
+
+h1{
+  background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255,255,255,0.38));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  color: var(--dark-gray);
 }

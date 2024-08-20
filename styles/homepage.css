@@ -1,0 +1,119 @@
+.hero-container{
+    display: grid;
+    gap: 2rem;
+    margin-top: 8vh;
+}
+
+.hero-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img{
+    width: 75%;
+    filter: drop-shadow(0 0 1rem rgba(38,67,166,0.3));
+}
+
+
+
+.hero-content{
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+.hero-content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.hero-content h1 span{
+    background: linear-gradient(90deg, #FF4B4B, #7959F1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    background-color: var(--primary-red);
+    border-radius: 5rem;
+}
+
+.cta:hover{
+    background-color: var(--secondary-red);
+}
+
+.pricing{
+    background-color: transparent;
+}
+
+.pricing span{
+    margin: 3px;
+    color: var(--primary-light);
+}
+
+
+.pricing:hover{
+    background-color: transparent;
+    color: var(--dark-gray);
+}
+
+.hero-extras{
+    display: grid;
+}
+
+.hero-extras h2{
+    font-size: 2.5rem;
+}
+
+.hero-extras p{
+    font-size: 0.8rem;
+}
+
+.hero-extras span{
+    color: var(--primary-red);
+    margin: 0 5px;
+}
+
+.hero-extra{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+@media screen and (min-width:768px){
+    .hero-container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        margin-top: 12vh;
+    }
+
+    .hero-img{
+        grid-area: 1/2/2/3;
+    }
+
+    .hero-content{
+        text-align: left;
+    }
+
+    .hero-btn, .hero-extra{
+        justify-content: flex-start;
+    }
+}
