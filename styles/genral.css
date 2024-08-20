@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-light: #d8d8d8;
+  --primary-dark: #0a0c10;
+  --primary-red: #a41045;
+  --dark-gray: #7d7e80;
+  --secondary-red: #892066;
+  --header-font:"Raleway", sans-serif;
+}
+
+.section-container{
+    max-width: var(--max-width);
+    padding: 5rem 1rem;
+}
+
+a{
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: var(--primary-light);
+}
+
+body{
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-family: 'poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
