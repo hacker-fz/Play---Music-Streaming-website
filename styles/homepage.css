@@ -8,11 +8,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .hero-img{
-    width: 75%;
+    width: 70%;
     filter: drop-shadow(0 0 1rem rgba(38,67,166,0.3));
+    max-width: 500px;
 }
 
 
@@ -98,7 +100,7 @@
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:992px){
     .hero-container{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
