@@ -101,11 +101,14 @@
   display: grid;
   gap: 3rem;
   justify-content: center;
+  margin-top: 3rem;
+  
 }
 
 .card-container {
   display: grid;
   max-width: 350px;
+  height: 550px;
   padding: 2rem;
   justify-content: center;
   align-items: center;
@@ -134,7 +137,7 @@
 }
 
 .card-content h2 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
   line-height: 3rem;
 }
@@ -151,6 +154,18 @@
   background-color: var(--dark-gray);
   padding: 2px 4px;
   border-radius: 100%;
+}
+
+
+
+
+@media screen and (min-width:768px){
+  .tracks-container{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -172,4 +187,12 @@
   .hero-extra {
     justify-content: flex-start;
   }
+
+  .tracks-container{
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0 4.5rem;
+  }
+
 }
