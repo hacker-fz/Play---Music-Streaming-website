@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section{
+  margin-bottom: 4rem;
+}
+
 :root {
   --primary-light: #d8d8d8;
   --primary-dark: #0a0c10;
@@ -16,11 +20,12 @@ html {
   --dark-gray: #7d7e80;
   --secondary-red: #892066;
   --header-font:"Raleway", sans-serif;
+  --rotation: 2.5rad;
 }
 
 .section-container{
     padding: 0 1rem;
-    height: 80vh;
+    height: fit-content;
 }
 
 a{
@@ -40,6 +45,9 @@ li{
 }
 
 h1{
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 700;
   background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255,255,255,0.38));
   -webkit-background-clip: text;
   background-clip: text;
@@ -47,5 +55,8 @@ h1{
 }
 
 p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
   color: var(--dark-gray);
 }
