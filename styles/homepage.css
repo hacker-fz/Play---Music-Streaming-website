@@ -122,6 +122,19 @@
   background-clip: padding-box, border-box;
 }
 
+.card-image{
+  display: flex;
+}
+
+.card-image .icon{
+  position: absolute;
+  width: 100px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.5));
+}
+
 .card-container img {
   width: 100%;
   border-radius: 1rem;
@@ -173,6 +186,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin-top: 12vh;
+    height: 80vh;
   }
 
   .hero-img {
@@ -194,5 +208,6 @@
     align-items: center;
     padding: 0 4.5rem;
   }
+  
 
 }

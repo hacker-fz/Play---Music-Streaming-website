@@ -1,39 +1,4 @@
 import {songs} from  '../data/songs.js';
-/* Animations */
-
-const scrollRevealOption = {
-  distance: "50px",
-  origin: "bottom",
-  duration: 1000,
-  easing: "ease-out",
-};
-
-ScrollReveal().reveal(".hero-img", {
-  ...scrollRevealOption,
-  delay: 600,
-  origin: "left",
-});
-ScrollReveal().reveal(".hero-content h1", {
-  ...scrollRevealOption,
-  delay: 400,
-});
-
-ScrollReveal().reveal(".hero-content p", {
-  ...scrollRevealOption,
-  delay: 500,
-});
-
-ScrollReveal().reveal(".hero-content .hero-extra", {
-  ...scrollRevealOption,
-  delay: 700,
-});
-
-ScrollReveal().reveal(".hero-content .hero-btn", {
-  ...scrollRevealOption,
-  delay: 600,
-});
-
-/* end of animations */
 
 
 
@@ -47,7 +12,10 @@ function renderSongs() {
   randomSongs.forEach((song) => {
       songsHTML += `
       <div class="card-container">
-        <img src="${song.image}" alt="music-card" />
+        <div class="card-image">
+         <img src="${song.image}" alt="${song.title}">
+         <img src="Icons/cards-play-btn.svg" class="playbtn icon">
+        </div>
         <div class="card-content">
           <h2>${song.name}</h2>
           <p>${song.artist}</p>
@@ -76,3 +44,53 @@ cards.forEach((card) => {
     card.style.setProperty("--rotation", angle + "rad");
   });
 });
+
+
+/* Animations */
+
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+  easing: "ease-out",
+};
+
+ScrollReveal().reveal(".hero-img", {
+  ...scrollRevealOption,
+  delay: 600,
+  origin: "left",
+});
+ScrollReveal().reveal(".hero-content h1", {
+  ...scrollRevealOption,
+  delay: 400,
+});
+ScrollReveal().reveal(".second-content h1", {
+  ...scrollRevealOption,
+  delay: 400,
+});
+
+ScrollReveal().reveal(".hero-content p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+ScrollReveal().reveal(".second-content p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".hero-content .hero-extra", {
+  ...scrollRevealOption,
+  delay: 700,
+});
+
+ScrollReveal().reveal(".hero-content .hero-btn", {
+  ...scrollRevealOption,
+  delay: 600,
+});
+ScrollReveal().reveal(".card-container", {
+  ...scrollRevealOption,
+  delay: 600,
+  scale: 0.7,
+});
+
+/* end of animations */

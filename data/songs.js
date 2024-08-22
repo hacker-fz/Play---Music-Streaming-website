@@ -362,4 +362,292 @@ export const songs = [
             "trip-hop"
         ]
     },
+    {
+        id: "abc123efg-9xyz-45ab-bcd1-e2345gh678ij",
+        image: "images/music-cards/loseyourself.jpeg",
+        name: "Lose Yourself",
+        artist: "Eminem",
+        listeners: '200k',
+        keywords: [
+            "Eminem",
+            "Lose Yourself",
+            "hip hop"
+        ]
+    },
+    {
+        id: "abc456efg-1xyz-67ab-bcd1-e2345gh678ij",
+        image: "images/music-cards/notafraid.jpeg",
+        name: "Not Afraid",
+        artist: "Eminem",
+        listeners: '220k',
+        keywords: [
+            "Eminem",
+            "Not Afraid",
+            "rap"
+        ]
+    },
+    {
+        id: "abc789efg-2xyz-89ab-bcd1-e2345gh678ij",
+        image: "images/music-cards/stansong.jpeg",
+        name: "Stan",
+        artist: "Eminem",
+        listeners: '180k',
+        keywords: [
+            "Eminem",
+            "Stan",
+            "hip hop"
+        ]
+    },
+    {
+        id: "abc012efg-3xyz-90ab-bcd1-e2345gh678ij",
+        image: "images/music-cards/withoutme.jpeg",
+        name: "Without Me",
+        artist: "Eminem",
+        listeners: '230k',
+        keywords: [
+            "Eminem",
+            "Without Me",
+            "hip hop"
+        ]
+    },
+    {
+        id: "abc345efg-4xyz-12ab-bcd1-e2345gh678ij",
+        image: "images/music-cards/godzilla.jpeg",
+        name: "Godzilla",
+        artist: "Eminem",
+        listeners: '210k',
+        keywords: [
+            "Eminem",
+            "Godzilla",
+            "rap"
+        ]
+    },
+    {
+        id: "jkl456mno-7pqr-89st-uvw2-x3456yz789op",
+        image: "images/music-cards/lucid dreams.jpeg",
+        name: "Lucid Dreams",
+        artist: "Juice WRLD",
+        listeners: '180k',
+        keywords: [
+            "Juice WRLD",
+            "Lucid Dreams",
+            "rap"
+        ]
+    },
+    {
+        id: "jkl789mno-8pqr-12st-uvw2-x3456yz789op",
+        image: "images/music-cards/all girls are the same.jpeg",
+        name: "All Girls Are The Same",
+        artist: "Juice WRLD",
+        listeners: '170k',
+        keywords: [
+            "Juice WRLD",
+            "All Girls Are The Same",
+            "hip hop"
+        ]
+    },
+    {
+        id: "jkl012mno-9pqr-34st-uvw2-x3456yz789op",
+        image: "images/music-cards/robbery.jpeg",
+        name: "Robbery",
+        artist: "Juice WRLD",
+        listeners: '160k',
+        keywords: [
+            "Juice WRLD",
+            "Robbery",
+            "rap"
+        ]
+    },
+    {
+        id: "jkl345mno-0pqr-56st-uvw2-x3456yz789op",
+        image: "images/music-cards/legends.jpeg",
+        name: "Legends",
+        artist: "Juice WRLD",
+        listeners: '150k',
+        keywords: [
+            "Juice WRLD",
+            "Legends",
+            "hip hop"
+        ]
+    },
+    {
+        id: "jkl678mno-1pqr-78st-uvw2-x3456yz789op",
+        image: "images/music-cards/wishing well.jpeg",
+        name: "Wishing Well",
+        artist: "Juice WRLD",
+        listeners: '200k',
+        keywords: [
+            "Juice WRLD",
+            "Wishing Well",
+            "rap"
+        ]
+    },
+    {
+        id: "qrs789tuv-3wxy-01ab-cde4-f5678gh901ij",
+        image: "images/music-cards/love story.jpeg",
+        name: "Love Story",
+        artist: "Taylor Swift",
+        listeners: '250k',
+        keywords: [
+            "Taylor Swift",
+            "Love Story",
+            "country"
+        ]
+    },
+    {
+        id: "qrs012tuv-4wxy-23ab-cde4-f5678gh901ij",
+        image: "images/music-cards/blank space.jpeg",
+        name: "Blank Space",
+        artist: "Taylor Swift",
+        listeners: '240k',
+        keywords: [
+            "Taylor Swift",
+            "Blank Space",
+            "pop"
+        ]
+    },
+    {
+        id: "qrs345tuv-5wxy-45ab-cde4-f5678gh901ij",
+        image: "images/music-cards/shake it off.jpeg",
+        name: "Shake It Off",
+        artist: "Taylor Swift",
+        listeners: '260k',
+        keywords: [
+            "Taylor Swift",
+            "Shake It Off",
+            "pop"
+        ]
+    },
+    {
+        id: "qrs678tuv-6wxy-67ab-cde4-f5678gh901ij",
+        image: "images/music-cards/bad blood.jpeg",
+        name: "Bad Blood",
+        artist: "Taylor Swift",
+        listeners: '230k',
+        keywords: [
+            "Taylor Swift",
+            "Bad Blood",
+            "pop"
+        ]
+    },
+    {
+        id: "qrs901tuv-7wxy-89ab-cde4-f5678gh901ij",
+        image: "images/music-cards/you belong with me.jpeg",
+        name: "You Belong With Me",
+        artist: "Taylor Swift",
+        listeners: '270k',
+        keywords: [
+            "Taylor Swift",
+            "You Belong With Me",
+            "country"
+        ]
+    },
+    {
+        id: "klm012nop-3stu-45vw-x67y-z8901ab234cd",
+        image: "images/music-cards/creepin.jpeg",
+        name: "Creepin'",
+        artist: "Metro Boomin",
+        listeners: '150k',
+        keywords: [
+            "Metro Boomin",
+            "Creepin'",
+            "trap"
+        ]
+    },
+    {
+        id: "klm345nop-4stu-67vw-x67y-z8901ab234cd",
+        image: "images/music-cards/ric flair drip.jpeg",
+        name: "Ric Flair Drip",
+        artist: "Metro Boomin",
+        listeners: '160k',
+        keywords: [
+            "Metro Boomin",
+            "Ric Flair Drip",
+            "trap"
+        ]
+    },
+    {
+        id: "klm678nop-5stu-89vw-x67y-z8901ab234cd",
+        image: "images/music-cards/space cadet.jpeg",
+        name: "Space Cadet",
+        artist: "Metro Boomin",
+        listeners: '170k',
+        keywords: [
+            "Metro Boomin",
+            "Space Cadet",
+            "hip hop"
+        ]
+    },
+    {
+        id: "klm901nop-6stu-01vw-x67y-z8901ab234cd",
+        image: "images/music-cards/overdue.jpeg",
+        name: "Overdue",
+        artist: "Metro Boomin",
+        listeners: '140k',
+        keywords: [
+            "Metro Boomin",
+            "Overdue",
+            "rap"
+        ]
+    },
+    {
+        id: "def345ghi-6jkl-78mn-opqr-st2345uv678w",
+        image: "images/music-cards/summertime sadness.jpeg",
+        name: "Summertime Sadness",
+        artist: "Lana Del Rey",
+        listeners: '220k',
+        keywords: [
+            "Lana Del Rey",
+            "Summertime Sadness",
+            "alternative"
+        ]
+    },
+    {
+        id: "def678ghi-7jkl-90mn-opqr-st2345uv678w",
+        image: "images/music-cards/video games.jpeg",
+        name: "Video Games",
+        artist: "Lana Del Rey",
+        listeners: '210k',
+        keywords: [
+            "Lana Del Rey",
+            "Video Games",
+            "alternative"
+        ]
+    },
+    {
+        id: "def901ghi-8jkl-12mn-opqr-st2345uv678w",
+        image: "images/music-cards/born to die.jpeg",
+        name: "Born to Die",
+        artist: "Lana Del Rey",
+        listeners: '230k',
+        keywords: [
+            "Lana Del Rey",
+            "Born to Die",
+            "alternative"
+        ]
+    },
+    {
+        id: "def234ghi-9jkl-34mn-opqr-st2345uv678w",
+        image: "images/music-cards/young and beautiful.jpeg",
+        name: "Young and Beautiful",
+        artist: "Lana Del Rey",
+        listeners: '240k',
+        keywords: [
+            "Lana Del Rey",
+            "Young and Beautiful",
+            "alternative"
+        ]
+    },
+    {
+        id: "def567ghi-0jkl-56mn-opqr-st2345uv678w",
+        image: "images/music-cards/dark paradise.jpeg",
+        name: "Dark Paradise",
+        artist: "Lana Del Rey",
+        listeners: '200k',
+        keywords: [
+            "Lana Del Rey",
+            "Dark Paradise",
+            "alternative"
+        ]
+    }
 ];
