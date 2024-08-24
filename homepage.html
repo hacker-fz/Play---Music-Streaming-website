@@ -1,120 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/genral.css" />
-    <link rel="stylesheet" href="styles/homepage.css" />
-    <link rel="stylesheet" href="styles/nav.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Play</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-bar">
-        <div class="logo">
-          pl<span><i class="ri-play-fill"></i></span>y
-        </div>
-        <div class="hamburger-icon">
-          <span><i class="ri-menu-line"></i></span>
-        </div>
-        <ul class="nav-links-desktop">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New Arrival</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Your Library</a></li>
-        </ul>
-        <div class="nav-btn">
-          <button class="login btn">Log In</button>
-          <button class="signup btn">Sign Up</button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/genral.css" />
+  <link rel="stylesheet" href="styles/homepage.css" />
+  <link rel="stylesheet" href="styles/nav.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Play</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-bar">
+      <div class="logo">
+        pl<span><i class="ri-play-fill"></i></span>y
       </div>
-      <ul class="nav-links">
+      <div class="hamburger-icon">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+      <ul class="nav-links-desktop">
         <li><a href="#">Home</a></li>
         <li><a href="#">New Arrival</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Your Library</a></li>
       </ul>
-    </nav>
+      <div class="nav-btn">
+        <button class="login btn">Log In</button>
+        <button class="signup btn">Sign Up</button>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New Arrival</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Your Library</a></li>
+    </ul>
+  </nav>
 
-    <!-- End of nav -->
+  <!-- End of nav -->
 
-    <section id="hero-sec">
-      <div class="section-container hero-container">
-        <div class="hero-img-container">
-          <img src="images/hero-img.png" alt="hero-img" class="hero-img" />
+  <section id="hero-sec">
+    <div class="section-container hero-container">
+      <div class="hero-img-container">
+        <img src="images/hero-img.png" alt="hero-img" class="hero-img" />
+      </div>
+
+      <div class="hero-content">
+        <h1>Feel the Music <br />Anytime, <span>Anywhere</span></h1>
+        <p>
+          Say goodbye to interruptions and enjoy uninterrupted music
+          streaming.With our ad-free platform, you'll have access to millions
+          of songs
+        </p>
+        <div class="hero-btn">
+          <button class="cta btn">Get Started for Free</button>
+          <button class="pricing btn">
+            View Princing<span><i class="ri-arrow-right-up-line"></i></span>
+          </button>
         </div>
 
-        <div class="hero-content">
-          <h1>Feel the Music <br />Anytime, <span>Anywhere</span></h1>
-          <p>
-            Say goodbye to interruptions and enjoy uninterrupted music
-            streaming.With our ad-free platform, you'll have access to millions
-            of songs
-          </p>
-          <div class="hero-btn">
-            <button class="cta btn">Get Started for Free</button>
-            <button class="pricing btn">
-              View Princing<span><i class="ri-arrow-right-up-line"></i></span>
-            </button>
+        <div class="hero-extra">
+          <div class="hero-extras">
+            <h2>1 Million<span>+</span></h2>
+            <p>music you can listen everyday</p>
           </div>
 
-          <div class="hero-extra">
-            <div class="hero-extras">
-              <h2>1 Million<span>+</span></h2>
-              <p>music you can listen everyday</p>
-            </div>
-
-            <div class="hero-extras">
-              <h2>700k<span>+</span></h2>
-              <p>various artist songs</p>
-            </div>
+          <div class="hero-extras">
+            <h2>700k<span>+</span></h2>
+            <p>various artist songs</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- end of hero section -->
+  <!-- end of hero section -->
 
-    <section id="hottest-tracks-sec">
-      <div class="section-container second-sec">
-        <div class="second-content">
-          <h1>The <span>Hottest</span> Tracks Of The Week</h1>
-          <p>
-            Say goodbye to interruptions and enjoy uninterrupted music
-            streaming. With our ad-free platform, you'll have access to millions
-            of songs
-          </p>
-          <div class="tracks-container"></div>
-        </div>   
-    </section>
-
-    <!-- end of second section -->
-
-    <section id="Libraries">
-      <div class="section-container Libraries-sec">
-        <div class="library-content">
-          <h1>Explore Endless <br/>Music Libraries</h1>
-          <p>
-            Say goodbye to interruptions and enjoy uninterrupted music streaming. 
-            With our ad-free platform, you'll have access to millions of songs
-          </p>
-          
-        </div>
+  <section id="hottest-tracks-sec">
+    <div class="section-container second-sec">
+      <div class="second-content">
+        <h1>The <span>Hottest</span> Tracks Of The Week</h1>
+        <p>
+          Say goodbye to interruptions and enjoy uninterrupted music
+          streaming. With our ad-free platform, you'll have access to millions
+          of songs
+        </p>
+        <div class="tracks-container"></div>
       </div>
-    </section>
+  </section>
 
-    <script src="scripts/nav.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="module" src="scripts/homepage.js"></script>
-  </body>
+  <!-- end of second section -->
+
+  <section id="Libraries">
+    <div class="section-container Libraries-sec">
+      <div class="library-content">
+        <h1>Explore Endless Music Libraries</h1>
+        <p>
+          Say goodbye to interruptions and enjoy uninterrupted music streaming.
+          With our ad-free platform, you'll have access to millions of songs
+        </p>
+      </div>
+      <div class="slider-container swiper">
+        <div class="slider swiper-wrapper">
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/new-release.jpg">
+              <div class="playlist-content">
+                <h2>New Release</h2>
+              </div>
+            </div>
+          </div>
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/hip-hop.jpg">
+              <div class="playlist-content">
+                <h2>Hip Hop</h2>
+              </div>
+            </div>
+          </div>
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/night-vibes.jpg">
+              <div class="playlist-content">
+                <h2>Night Vibes</h2>
+              </div>
+            </div>
+          </div>
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/old-school-rap.webp">
+              <div class="playlist-content">
+                <h2>Old School Rap</h2>
+              </div>
+            </div>
+          </div>
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/r&b.png">
+              <div class="playlist-content">
+                <h2>R&B</h2>
+              </div>
+            </div>
+          </div>
+          <div class="playlist swiper-slide">
+            <div class="playlist-cover">
+              <img src="images/playlist-covers/summer-hits.webp">
+              <div class="playlist-content">
+                <h2>Summer Hits</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      
+    </div>
+  </section>
+
+  <script src="scripts/nav.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="scripts/homepage.js"></script>
+</body>
+
 </html>

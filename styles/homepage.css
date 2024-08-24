@@ -120,6 +120,7 @@
     linear-gradient(calc(var(--rotation)), #888 0, #444 20%, transparent 80%);
   background-origin: border-box;
   background-clip: padding-box, border-box;
+  cursor: pointer;
 }
 
 .card-image{
@@ -169,8 +170,66 @@
   border-radius: 100%;
 }
 
+.swiper-wrapper{
+  display: flex;
+}
 
+.playlist {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+}
 
+.playlist-cover {
+  position: relative;
+  height: 350px;
+  width: 250px;
+}
+
+.playlist-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playlist-content {
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  right: 0;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.575));
+}
+
+.playlist-cover:hover {
+  filter: brightness(80%);
+}
+
+.slider-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    right:10px;
+    padding: 30px;
+    color: #ffffff !important;
+    fill: rgb(255, 255, 255) !important;
+    stroke: rgb(255, 255, 255) !important;
+}
+
+.swiper-pagination{
+  --swiper-pagination-bottom: -6px
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
 
 @media screen and (min-width:768px){
   .tracks-container{

@@ -45,6 +45,39 @@ cards.forEach((card) => {
   });
 });
 
+const playlists = document.querySelectorAll('.playlist')
+
+
+/* swiper */
+
+var swiper = new Swiper('.swiper', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 3,
+  initialSlide: 2,
+  speed: 800,
+  coverflowEffect: {
+      rotate: 0,
+      stretch: 90,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true,
+  },
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+
+
+
+
 
 /* Animations */
 
