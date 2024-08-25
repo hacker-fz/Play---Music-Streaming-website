@@ -54,28 +54,36 @@ var swiper = new Swiper('.swiper', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   initialSlide: 2,
   speed: 800,
   coverflowEffect: {
-      rotate: 0,
-      stretch: 90,
-      depth: 100,
-      modifier: 2,
-      slideShadows: true,
-  },
-  pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+    rotate: 0,
+    stretch: 90,
+    depth: 100,
+    modifier: 2,
+    slideShadows: true,
   },
   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20, 
+    },
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      modifier: 3,
+    },
   },
 });
-
-
-
 
 
 
@@ -93,20 +101,13 @@ ScrollReveal().reveal(".hero-img", {
   delay: 600,
   origin: "left",
 });
-ScrollReveal().reveal(".hero-content h1", {
-  ...scrollRevealOption,
-  delay: 400,
-});
-ScrollReveal().reveal(".second-content h1", {
+ScrollReveal().reveal(".hero-content h1, .second-content h1, .library-content h1", {
   ...scrollRevealOption,
   delay: 400,
 });
 
-ScrollReveal().reveal(".hero-content p", {
-  ...scrollRevealOption,
-  delay: 500,
-});
-ScrollReveal().reveal(".second-content p", {
+
+ScrollReveal().reveal(".hero-content p, .second-content p, .library-content p", {
   ...scrollRevealOption,
   delay: 500,
 });
@@ -120,7 +121,7 @@ ScrollReveal().reveal(".hero-content .hero-btn", {
   ...scrollRevealOption,
   delay: 600,
 });
-ScrollReveal().reveal(".card-container", {
+ScrollReveal().reveal(".card-container, .slider-container", {
   ...scrollRevealOption,
   delay: 600,
   scale: 0.7,
