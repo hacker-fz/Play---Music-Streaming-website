@@ -101,30 +101,41 @@ ScrollReveal().reveal(".hero-img", {
   delay: 600,
   origin: "left",
 });
-ScrollReveal().reveal(".hero-content h1, .second-content h1, .library-content h1", {
+ScrollReveal().reveal(".hero-content h1, .second-content h1, .library-content h1, .artist-content h1", {
   ...scrollRevealOption,
   delay: 400,
 });
 
+ScrollReveal().reveal(".bg-box", {
+  ...scrollRevealOption,
+  delay: 400,
+});
 
-ScrollReveal().reveal(".hero-content p, .second-content p, .library-content p", {
+ScrollReveal().reveal(".end-content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-ScrollReveal().reveal(".hero-content .hero-extra", {
+
+ScrollReveal().reveal(".hero-content p, .second-content p, .library-content p, .artist-content p, .end-content h1", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".hero-content .hero-extra, .artist-btn, .email-box", {
   ...scrollRevealOption,
   delay: 700,
 });
 
-ScrollReveal().reveal(".hero-content .hero-btn", {
+ScrollReveal().reveal(".hero-content .hero-btn, .end-content p", {
   ...scrollRevealOption,
   delay: 600,
 });
-ScrollReveal().reveal(".card-container, .slider-container", {
+ScrollReveal().reveal(".card-container, .slider-container, .artist, .headphone-image", {
   ...scrollRevealOption,
   delay: 600,
   scale: 0.7,
+  interval:100
 });
 
 /* end of animations */
