@@ -107,6 +107,34 @@ button:hover{
 }
 
 
+.search-bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.search-bar input{
+    background-color: #d8d8d813;
+    border: #d8d8d813 solid 1px;
+    color: var(--dark-gray);
+    font-size: large;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-bar button{
+    border-radius: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
 @media screen and (min-width:768px) {
     nav{
         padding: 0.75rem 2rem;
@@ -180,6 +208,8 @@ button:hover{
         align-items: center;
         text-align: center;
     }
+
+    
 }
 
 @media screen and (max-width:992px) {
@@ -194,5 +224,10 @@ button:hover{
 
     .nav-links-desktop a{
         margin: 0 ;
+    }
+
+    .search-bar{
+        padding: 0;
+        margin: 0.5rem;
     }
 }

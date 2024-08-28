@@ -135,7 +135,7 @@ ScrollReveal().reveal(".card-container, .slider-container, .artist, .headphone-i
   ...scrollRevealOption,
   delay: 600,
   scale: 0.7,
-  interval:100
+  interval:150
 });
 
 /* end of animations */

@@ -1,3 +1,4 @@
+
 .hero-container {
   display: grid;
   gap: 2rem;
@@ -358,6 +359,10 @@
   font-size: 1rem;
   color: var(--dark-gray);
   max-width: 250px;
+}
+
+.email-box input:focus{
+  outline: none;
 }
 
 .email-box img{
